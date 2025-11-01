@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 80" width="128" height="160">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff6b6b" />
+      <stop offset="100%" stop-color="#ff8a65" />
+    </linearGradient>
+    <filter id="s2" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <!-- Pin background with warm gradient -->
+  <path d="M32 2C20 2 10 14 10 26c0 11 11 25 20 38 9-13 20-27 20-38C54 14 44 2 32 2z" fill="url(#g2)" filter="url(#s2)" />
+  <!-- Inner circle -->
+  <circle cx="32" cy="26" r="13" fill="#fff" />
+  <!-- Variant 2: Geometric sharp K (stroke-based, miter joins) -->
+  <path d="M26 16 L26 40" stroke="#0b1220" stroke-width="4.0" stroke-linecap="butt" stroke-linejoin="miter" />
+  <path d="M26 26 L44 14" stroke="#0b1220" stroke-width="4.0" stroke-linecap="butt" stroke-linejoin="miter" />
+  <path d="M26 26 L44 38" stroke="#0b1220" stroke-width="4.0" stroke-linecap="butt" stroke-linejoin="miter" />
+  <!-- Thin halo -->
+  <circle cx="32" cy="26" r="14.6" fill="none" stroke="#000" stroke-opacity="0.06" stroke-width="1" />
+</svg>

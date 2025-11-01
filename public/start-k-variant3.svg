@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 80" width="128" height="160">
+  <defs>
+    <linearGradient id="g3" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#6b5cff" />
+      <stop offset="100%" stop-color="#4fb3ff" />
+    </linearGradient>
+    <filter id="s3" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.22" />
+    </filter>
+  </defs>
+  <!-- Pin background -->
+  <path d="M32 2C20 2 10 14 10 26c0 11 11 25 20 38 9-13 20-27 20-38C54 14 44 2 32 2z" fill="url(#g3)" filter="url(#s3)" />
+  <!-- Inner circle -->
+  <circle cx="32" cy="26" r="13" fill="#fff" />
+  <!-- Variant 3: Slab-serif K (filled, with small serifs) -->
+  <rect x="24.5" y="16" width="4.2" height="28" fill="#07101a" rx="0.6" />
+  <!-- upper arm filled with small top serif -->
+  <path d="M28.7 24 L45.5 13 L47 14.6 L31 26.8 L47 39.2 L45.5 40.8 L28.7 29 L28.7 29 Z" fill="#07101a" />
+  <!-- small serif on stem bottom -->
+  <rect x="22.6" y="40" width="8" height="2" fill="#07101a" rx="0.6" />
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 80" width="128" height="160">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2b6ef6" />
+      <stop offset="100%" stop-color="#24a0ed" />
+    </linearGradient>
+    <filter id="s1" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <!-- Pin background -->
+  <path d="M32 2C20 2 10 14 10 26c0 11 11 25 20 38 9-13 20-27 20-38C54 14 44 2 32 2z" fill="url(#g1)" filter="url(#s1)" />
+  <!-- Inner white circle -->
+  <circle cx="32" cy="26" r="14" fill="#fff" />
+  <!-- Variant 1: Bold filled K (solid shapes) -->
+  <rect x="24.5" y="16" width="5.5" height="28" rx="1" fill="#0f1720" />
+  <polygon points="31 26 48 14 51 16 34 29 51 42 48 44 31 30" fill="#0f1720" />
+  <!-- Light stroke for contrast -->
+  <path d="M32 2C20 2 10 14 10 26c0 11 11 25 20 38 9-13 20-27 20-38C54 14 44 2 32 2z" fill="none" stroke="#0f1720" stroke-opacity="0.08" stroke-width="1" />
+</svg>
